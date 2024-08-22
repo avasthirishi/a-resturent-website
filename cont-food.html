@@ -1,0 +1,886 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>PINE N DINE</title>
+    <!-- Web app manifest -->
+    <link rel='manifest' href='manifest.json'>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap1.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="animate1.css">
+    <!-- Default stylesheet -->
+    <link rel="stylesheet" href="main1.css">
+  </head>
+  <body id="top">
+    <header>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand animated pulse" href="index.html">
+          <img src="logo-dark.svg" width="30" height="30" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="food.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Menu
+              </a>
+              <div class="dropdown-menu text-center text-lg-left" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="cont-food.html">Food</a>
+                <a class="dropdown-item" href="dessert.html">Desserts</a>
+                <a class="dropdown-item" href="drinks.html">Drinks</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="reservations.html">Reservations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact1.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Order Online</a>
+            </li>
+          </ul>
+          <div class="ml-auto">
+            <a class="nav-social mr-2" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="nav-social mr-2" href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+            <a class="nav-social mr-2" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="nav-social" href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+
+      <!-- FOOD: JUMBOTRON -->
+      <div class="jumbotron food-jumbotron dark-overlay text-white">
+        <img
+          sizes="(max-width: 2560px) 100vw, 2560px"
+          srcset="
+               24.jpg 2560w"
+          src="24.jpg"
+          alt=""
+          class="food-jumbotron-bg">
+        <div class="food-jumbotron-caption container">
+          <h1 id="title-1" class="special-title-2">Food Menu</h1>
+          <div id="menu-icons">
+            <div class="row">
+              <div class="col-3">
+                <a href="#breakfasts" class="smooth-scroll"><img class="menu-icon" src="food-images-icons/breakfasts.svg" alt="Breakfasts"></a>
+                <h6 class="menu-icon-text mt-3 mb-0">BREAKFASTS</h6>
+              </div>
+              <div class="col-3">
+                <a href="#burgers" class="smooth-scroll"><img class="menu-icon" src="food-images-icons/burgers.svg" alt="Burgers"></a>
+                <h6 class="menu-icon-text mt-3 mb-0">BURGERS</h6>
+              </div>
+              <div class="col-3">
+                <a href="#flavours-from-South-India" class="smooth-scroll"><img class="menu-icon" src="food-images-icons/flavours-from-South-India.svg" alt="Flavours from South India"></a>
+                <h6 class="menu-icon-text mt-3 mb-0">FLAVOURS FROM SOUTH INDIA</h6>
+              </div>
+              <div class="col-3">
+                <a href="#from-the-tandoor" class="smooth-scroll"><img class="menu-icon" src="food-images-icons/from-the-tandoor.svg" alt="From the tandoor"></a>
+                <h6 class="menu-icon-text mt-3 mb-0">FROM THE TANDOOR</h6>
+              </div>          
+            </div>
+            <div class="row mt-5">
+              <div class="col-3">
+                <a href="#pasta" class="smooth-scroll"><img class="menu-icon" src="food-images-icons/pasta.svg" alt="Pasta"></a>
+                <h6 class="menu-icon-text mt-3 mb-0">PASTA</h6>
+              </div>
+              <div class="col-3">
+                <a href="#Indian-breads" class="smooth-scroll"><img class="menu-icon" src="food-images-icons/Indian-breads.svg" alt="Indian breads"></a>
+                <h6 class="menu-icon-text mt-3 mb-0">INDIAN BREADS</h6>
+              </div>
+              <div class="col-3">
+                <a href="#pizzas" class="smooth-scroll"><img class="menu-icon" src="food-images-icons/pizzas.svg" alt="Pizzas"></a>
+                <h6 class="menu-icon-text mt-3 mb-0">PIZZAS</h6>
+              </div>
+              <div class="col-3">
+                <a href="#salads" class="smooth-scroll"><img class="menu-icon" src="food-images-icons/salads.svg" alt="Salads"></a>
+                <h6 class="menu-icon-text mt-3 mb-0">SALADS</h6>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-3">
+                <a href="#paneer" class="smooth-scroll"><img class="menu-icon" src="food-images-icons/paneer.png" alt="paneer"></a>
+                <h6 class="menu-icon-text mt-3 mb-0">PANEER SPECIAL</h6>
+              </div>
+              <div class="col-3">
+                <a href="#dal" class="smooth-scroll"><img class="menu-icon" src="food-images-icons/dal.png" alt="dal"></a>
+                <h6 class="menu-icon-text mt-3 mb-0">DAL KA DUM</h6>
+              </div>
+              <div class="col-3">
+                <a href="#chicken" class="smooth-scroll"><img class="menu-icon" src="food-images-icons/chicken.svg" alt="chicken"></a>
+                <h6 class="menu-icon-text mt-3 mb-0">CHICKEN SPECIALTIES</h6>
+              </div>
+              <div class="col-3">
+                <a href="#accompaniments" class="smooth-scroll"><img class="menu-icon" src="food-images-icons/accompaniments.svg" alt="accompaniments"></a>
+                <h6 class="menu-icon-text mt-3 mb-0">ACCOMPANIMENTS</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOD: DESCRIPTIONS -->
+      <div class="food-descriptions container">
+        
+        <!-- BREAKFASTS -->
+        <div id="breakfasts" class="food-category">
+          <h2 class="banner">BREAKFASTS</h2>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/ft.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">FRENCH TOAST</span>
+                <span class="food-price float-right">₹ 95.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                French toast is a dish made of sliced bread soaked in eggs and typically milk, then fried.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/eggs.jpg" alt=""  class="rounded-circle lazyload" style="width: 180px;height: 180px;">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name text-truncate">BOILED EGGS WITH CHEESE STRAWS</span>
+                <span class="food-price float-right">₹ 110.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                 A fun twist on egg and soldie₹  Cheese straws are served in place of toast sticks, perfect to dip into the creamy yolk of soft boiled eggs.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/paratha.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;">
+              
+
+               </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">PANEER PARATHA</span>
+                <span class="food-price float-right">₹ 79.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+               Paneer Paratha is  made with a stuffing of paneer, coriander and green chillies.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+        </div>
+
+        <!-- BURGERS -->
+        <div id="burgers" class="food-category">
+          <h2 class="banner">BURGERS</h2>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/vburg.jpeg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;">
+             </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">VEGGIE BURGER</span>
+                <span class="food-price float-right">₹ 90.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+               These burgers are juicy, saucy and stacked tall with toppings—just the way you like 'em.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/cburg.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;">
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">CHEESEBURGER</span>
+                <span class="food-price float-right">₹ 105.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                This cheesy burger has been with us from the start.Give it a try to unload the heavily chesse loaded burger. 
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/ddburg.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;">
+              
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">DOUBLE DECKER</span>
+                <span class="food-price float-right">₹ 137.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                Marcy Schewe's man-sized sandwich looks as delectable as it tastes. "We like the flavors in the special spread," says the Danube, Minnesota field editor.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+        </div>
+
+        <!-- FLAVOURS FROM SOUTH INDIA -->
+        <div id="flavours-from-South-India" class="food-category">
+          <h2 class="banner">FLAVOURS FROM SOUTH</h2>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/dosa.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+                </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">DOSA</span>
+                <span class="food-price float-right">₹ 159.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                 Dosa is a thin and crispy crepe made from rice and urad dal (black lentils), served with Coconut Chutney and Vegetable Sambar is a match made in heaven.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/uttapam.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">UPMA</span>
+                <span class="food-price float-right">₹ 105.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                Vegetable Rava Upma is a traditional south Indian breakfast dish that is made from semolina and cooked along with vegetables and seasonings.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+             
+              <img src="food-images-icons/idli.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+
+             </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">IDLI SAMBHAR</span>
+                <span class="food-price float-right">₹ 115.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+               A two-course meal of sambar mixed with rice and eaten with some sort of vegetable side dish, followed by yoghurt mixed with rice, is a southern Indian staple. Vada sambar and idli sambar are popular for breakfast or an evening snack in the south Indian states.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+        </div>
+
+        <!-- FROM THE TANDOOR -->
+        <div id="from-the-tandoor" class="food-category">
+          <h2 class="banner">FROM THE TANDOOR</h2>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/tp.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+              </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">TANDOORI PANEER TIKKA</span>
+                <span class="food-price float-right">₹ 179.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                 Tandoori Paneer Tikka is a famous Indian appetizer where pieces of paneer (Indian cottages cheese) and marinated with yogurt and spices and then grilled until charred. Onion, bell peppers and tomatoes are also added to the marination along with paneer.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/tc.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">TANDOORI CHICKEN</span>
+                <span class="food-price float-right">₹ 235.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                 Grilled Tandoori Chicken is succulently juicy from being marinated in a Greek yogurt and lemon spiced marinade. It is smoky from the grill and the smoked paprika and boasts a tapestry of earthy flavors from garam masala to ginger to garlic.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/tpl.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">TANDOORI SOYA CHAAP</span>
+                <span class="food-price float-right">₹ 199.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                Tandoori Soya chaap is a dish come from South Asia where it is popular, like in India. it is small pieces of soya baked using skewers in a brick oven called a tandoor after marinating in spices and yogurt- essentially a vegetarian take on tandoori chicken tikka.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+        </div>
+
+        <!-- PASTA -->
+        <div id="pasta" class="food-category">
+          <h2 class="banner">PASTA</h2>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/wp.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+              
+               </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">WHITE SAUCE PASTA</span>
+                <span class="food-price float-right">₹ 169.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                Creamy and cheesy White Sauce Pasta is the ultimate comfort food,packed with veggies.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/asp.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">ALFREDO </span>
+                <span class="food-price float-right">₹ 100.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                Fresh egg noodles tossed with a thick, creamy sauce and a hint of nutmeg come together in this recipe to create one of our favorite dishes to serve at dinner parties.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/ssap.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+              
+              </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">SMOKED SALMON PASTA</span>
+                <span class="food-price float-right">₹ 219.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+               Smoked Salmon Pasta in a sauce of shallots, garlic, white wine, lemon, and cream, with toasted pine nuts and parsley.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+        </div>
+
+        <!-- Indian Breads -->
+        <div id="Indian-breads" class="food-category">
+          <h2 class="banner">INDIAN BREADS</h2>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/bn.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+              
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">BUTTER NAN</span>
+                <span class="food-price float-right">₹ 59.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                The Indian butter naan is soft with flaky edges and feather light,stuffed with a mixture of messhed patatoes tossed upon by indian spices.It is just perfect to soak up in curries and gravies.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/tr.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">TANDOORI ROTI</span>
+                <span class="food-price float-right">₹ 29.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                These tandoori roti are soft, chewy and slightly charred butter roti made on tandoo₹ 
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/tawa.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">TAWA ROTI</span>
+                <span class="food-price float-right">₹ 19.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+               Roti is a round flatbread native to the Indian subcontinent made from stoneground wholemeal flour, traditionally known as atta, and water that is combined into a dough.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+        </div>
+         <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/pp.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+              
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">PURAN POLI</span>
+                <span class="food-price float-right">₹ 89.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                Puran Poli is a sweet flatbread and is popularly enjoyed during Ganesh Chaturthi and Diwali in Maharashtra. This bread is made by filling a lentil mixture, which is prepared using roasted chana dal and jaggery
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+        </div>
+        
+
+
+        <!-- PIZZAS -->
+        <div id="pizzas" class="food-category">
+          <h2 class="banner">PIZZAS</h2>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/psp.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">PEPPERONI</span>
+                <span class="food-price float-right">₹ 235.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                You won't miss the gluten in this crust! Topped with cheesy goodness and turkey pepperoni, this pizza is bound to be a hit with the whole family.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/mp.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">MARGARITA</span>
+                <span class="food-price float-right">₹ 235.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                Pizza in its simplest, most classic form.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/ffp.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">FARMFRESH</span>
+                <span class="food-price float-right">₹ 310.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+               Handcrafted flatbread crust with fresh mozzarella, cheese, olive oil, salt and pepper.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+        </div>
+
+        <!-- SALADS -->
+        <div id="salads" class="food-category">
+          <h2 class="banner">SALADS</h2>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/es.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">EGG SALAD</span>
+                <span class="food-price float-right">₹ 99.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+               This Perfect Egg Salad recipe will knock your socks off.It's the perfect balance of flavors and the secret ingredient.It makes all the difference. 
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/vsr.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+              
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">VEG SALAD</span>
+                <span class="food-price float-right">₹ 119.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                It is a very good practice to include vegetable salad every day in your diet. Being made with fresh veggies or fruits, they are flavorful and nutritious.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/ps.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">POMEGRANATE SALAD</span>
+                <span class="food-price float-right">₹ 159.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                This pomegranate, pear and avocado salad is full of delicious fresh flavo₹  
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+        </div>
+
+        <!-- PANEER SPECIAL -->
+        <div id="paneer" class="food-category">
+          <h2 class="banner">PANEER SPECIAL</h2>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/nsp.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+              
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">NAVRATRI SPECIAL PANEER</span>
+                <span class="food-price float-right">₹ 198.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+               Made in a spoonful of ghee without any onion,garlic cream or nuts.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/pbm.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">PANEER BUTTER MASALA</span>
+                <span class="food-price float-right">₹ 250.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                This creamy curry is made with onion, tomatoes, cashews, cream and butter (of course!).
+
+It has a mild sweet taste and pairs beautifully with garlic naan or lemon rice.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/ap.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">AKBARI PANEER</span>
+                <span class="food-price float-right">₹ 300.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                A Mughlai Delicacy very rich in taste made with the help of aromatic spices, nuts, butter and cream.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+        </div>
+
+        <!-- DAL KA DUM -->
+        <div id="dal" class="food-category">
+          <h2 class="banner">DAL KA DUM</h2>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/DM.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">MAA KI DAL</span>
+                <span class="food-price float-right">₹ 149.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+               Straight from the Punjabi kitchen, this one is a complete crowd pleaser! Made with hearty ingredients like black dal, butter, cream, yogurt and truck loads of love. Pair with a chapati or rice and have a hearty meal.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/gd.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">GUJARATI DAL</span>
+                <span class="food-price float-right">₹ 149.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+               This one comes with a distinct blend of masalas along with sweet and tangy toor dal made in a delicious Gujarati style with potatoes and peanuts. Tempered with loads of spices and tomatoes for a mouth watering result.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/hkd.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+              
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">HYDERABADI KHATTI DAL</span>
+                <span class="food-price float-right">₹ 160.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                Hyderabadi Khatti Dal is thick, flavorful curry made using masoor or toor dal. It is tangy and seasoned with curry leaves and mustard.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+        </div>
+
+        <!-- CHICKEN SPECIALTIES -->
+        <div id="chicken" class="food-category">
+          <h2 class="banner">CHICKEN SPECIALTIES</h2>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/cm.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">CHICKEN MAKHANI</span>
+                <span class="food-price float-right">₹ 310.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                Tender pieces of tandoori boneless chicken sautéed in a butter and cream sauce.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/cc.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">CHICKEN CURRY</span>
+                <span class="food-price float-right">₹ 345.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+               Lightly spiced boneless chicken cooked in a mild sauce.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/ckm.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+              
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">KALI MIRCH CHICKEN</span>
+                <span class="food-price float-right">₹ 299.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+               Chicken kali mirch is also called as Indian black pepper chicken curry or murgh kali mirch. It is delicious peppery curry of marinated chicken cooked in black pepper yogurt gravy.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+        </div>
+
+        <!-- ACCOMPANIMENTS -->
+        <div id="accompaniments" class="food-category">
+          <h2 class="banner">ACCOMPANIMENTS</h2>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/ac.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+            
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">ASSORTED CONDIMENTS </span>
+                <span class="food-price float-right">₹ 190.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+               Mixed Pickle, Green Chutney, Red Onion Chutney or Tamarind Chutney.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/r.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+             
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">RAITA</span>
+                <span class="food-price float-right">₹ 189.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+               Yogurt with cucumbers,carrots and onions.
+              </p>
+            </div>
+          </div>
+          <hr class="food-horizontal-rule">
+          <div class="row align-items-center menu-item">
+            <div class="col-md-3 food-image">
+              <img src="food-images-icons/lr.jpg" alt="" class="rounded-circle lazyload" style="width: 180px;height: 180px;" >
+            
+            </div>
+            <div class="col-md-9">
+              <h3 class="food-title">
+                <span class="food-name">LEMON RICE </span>
+                <span class="food-price float-right">₹ 139.<sup>00</sup></span>
+              </h3>
+              <p class="food-ingredients">
+                Lemon flavored rice with mild spices.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+     
+
+    </main>
+    <footer class="page-footer">
+      <div class="container">
+        <a class="navbar-brand animated pulse d-block text-center m-0 p-0" href="#">
+          <img src="logo-light.svg" width="50" height="50" alt="Logo">
+        </a>
+        <div class="row">
+          <div class="col-md-3">
+            <h5 class="page-footer-title">OPENING HOURS</h5>
+            <p class="mb-0">Open daily from 8am</p> 
+            <p class="mb-0">Breakfast: Daily from 8am - 11am</p> 
+            <p class="mb-0">Lunch: Daily from 12pm - 3pm</p>
+            <p>Dinner: Daily from 6pm - 12pm</p>
+          </div>
+          <div class="col-md-3 h-100 border-left-custom">
+            <h5 class="page-footer-title mt-3 mt-md-0">LOCATION</h5>
+            <address>
+              PINE N DINE<br>
+              Near H.W Marriot,<br>
+              Sector 72, Chandigarh, India<br>
+              <abbr title="Phone">P:</abbr> (+91) 6209291653<br>
+              <abbr title="Email">E:</abbr> info@pinendine.com
+            </address>
+          </div>
+          <div class="col-md-3 h-100 border-left-custom">
+            <h5 class="page-footer-title mt-3 mt-md-0">FOLLOW US</h5>
+            <div class="mb-3">
+              <a class="footer-social" href="https://github.com/PictureElement" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a class="footer-social" href="https://github.com/PictureElement" aria-label="tripadvisor"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+              <a class="footer-social" href="https://github.com/PictureElement" aria-label="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="col-md-3 h-100 border-left-custom">
+            <h5 class="page-footer-title mt-3 mt-md-0">NEWSLETTER</h5>
+            <p>
+              Complete the form to receive information on the latest events,
+              news and special offers at PINE N DINE.
+            </p>
+            <form id="newsletter-form">
+              <label class="sr-only" for="formEmail">Email</label>
+              <input type="email" class="form-control form-control-sm rounded" id="formEmail" placeholder="name@example.com">
+              <button type="submit" class="btn btn-sm btn-outline-light btn-block mt-2">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="page-footer-copyright container-fluid text-center">
+                 © 2023 PINE N DINE. All rights reserved.<br>
+        Design &amp; Development by Rishikesh Awasthi and Sarthak Kumar.
+ </div>
+    </footer>
+    <a id="back-to-top" class="back-to-top smooth-scroll" href="#top">
+      <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+    </a>
+    <!-- lazySizes -->
+    <script src="../js/lazysizes.min.js" async=""></script>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap -->
+    <script 
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+      crossorigin="anonymous">
+    </script>
+    <script src="../js/site.js"></script>
+    <script src="../js/menu-animations.js"></script>
+  </body>
+</html>

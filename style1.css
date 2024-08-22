@@ -1,0 +1,47 @@
+
+		.tabs-conatiner
+		{
+			width: 90%;
+			border:1px solid white;
+			margin: auto;
+		}
+		.tabHeader
+		{
+			border:none;
+			outline: none;
+			background: transparent;
+			color: white;
+			padding: 6px 12px;
+			font-size: 1em; 
+			font-family: fantasy;
+			cursor: pointer;
+		}
+		.active-tab
+		{
+			border:1px solid white !important;
+			border-radius: 87px;
+			border-bottom: none !important;
+
+
+		}
+		.active-tab:hover
+		{
+			background-color: gold;
+		}
+		
+		.tabSection
+		{
+			border:1px solid white ;
+			padding: 15px;
+			}
+		.hide-tab
+		{
+			display: none;
+
+		}
+		.show-tab
+		{
+			display: block;
+		}
+
+	
