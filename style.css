@@ -1,0 +1,28 @@
+body {
+  background: #292826;
+  font-family: 'Rubik', sans-serif;
+}
+h3{
+  font-family: Calibri; 
+  font-size: 25pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:rgb(177, 177, 22);
+  text-align: center; 
+  text-decoration: underline
+}
+
+table{
+  font-family: Calibri; 
+  color:#292826; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:; 
+  background-color: #f9d342; 
+  border-collapse: collapse; 
+  border: 2px solid #9b7f11
+}
+table.inner{
+  border: 0px
+}
